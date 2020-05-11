@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {border: 5px solid #f1f1f1;}
+.container {
+  padding: 16px;
+  background-color: white;
+}
+input[type=text],input[type=password] {
+	text-align: center;
+	width:50%;
+	border:2px solid #aaa;
+	border-radius:6px;
+	margin:8px 0;
+	outline:none;
+	padding:8px;
+	box-sizing:border-box;
+	transition:.3s;
+}
+input[type=text]:focus {
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgerBlue;
+	}
+	input[type=password]:focus {
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgerBlue;
+}
+.registerbtn {
+ 	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 100px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 540px;
+	cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+.textpass{
+	margin-left: 450px;
+}
+.already_account{
+  margin-left: 550px;
+}

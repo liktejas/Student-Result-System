@@ -1,0 +1,60 @@
+.image{
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+img.avatar {
+  width: 15%;
+  border-radius: 50%;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 5px solid #f1f1f1;}
+.content {
+  padding: 16px;
+}
+.textpass{
+	margin-left: 450px;
+}
+
+span.passwd {
+  float: right;
+  padding-top: 16px;
+}
+button:hover {
+  opacity: 0.7;
+}
+input[type=text],input[type=password]{
+	text-align: center;
+	width:50%;
+	border:2px solid #aaa;
+	border-radius:6px;
+	margin:8px 0;
+	outline:none;
+	padding:8px;
+	box-sizing:border-box;
+	transition:.3s;
+	}	
+	input[type=text]:focus {
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgerBlue;
+	}
+	input[type=password]:focus {
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgerBlue;
+	}
+  input[type=number]:focus {
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+.submit{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.account{
+  margin-left: 530px;
+}
